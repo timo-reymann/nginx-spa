@@ -7,6 +7,5 @@ node {
         ])
     ])
 
-    runDefaultDockerPipeline currentBuild: currentBuild, imageName: "timoreymann/nginx-spa", version: params.Version
+    runDefaultDockerPipeline currentBuild: currentBuild, imageName: "timoreymann/nginx-spa", tag: params.Version
 }
-

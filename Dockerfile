@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:1.17-alpine
 # Copy configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 # We dont want the container to immediately terminate

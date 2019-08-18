@@ -1,7 +1,7 @@
 nginx-spa
 ===
 
-[![Build Status](https://jenkins.timo-reymann.de/buildStatus/icon?job=TR-GitHub%2Fnginx-spa%2Fmaster)](https://jenkins.timo-reymann.de/job/TR-GitHub/job/nginx-spa/job/master/)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/timoreymann/nginx-spa)
 
 This is a really simple docker image to run your spa via docker without any configuration.
 

@@ -1,13 +1,14 @@
-FROM nginx:1.19.2-alpine
+FROM nginx:1.19.5-alpine
+
+WORKDIR /app
+RUN addgroup -g 1002 app && \
+    adduser -D -u 1002 -G app app && \
+    chown -R app:app /app
 
 # Copy configuration
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY nginx.conf /etc/nginx/nginx.conf
 
-# We dont want the container to immediately terminate
-RUN echo "daemon off;" >> /etc/nginx/nginx.conf
-
-# Make app directory
-RUN mkdir /app
+USER app
 
 # Run it!
-CMD ["nginx"]
+ENTRYPOINT ["nginx"]

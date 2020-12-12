@@ -5,4 +5,5 @@ nginx-spa
 
 This is a really simple docker image to run your spa via docker without any configuration.
 
-Mount your app under /app, start the container and your done.
+## Usage
+Mount or build your files under `/app`, the container is running under 1002:1002 as unprivileged container on port 8080.

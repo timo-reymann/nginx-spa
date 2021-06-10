@@ -1,4 +1,4 @@
-FROM nginx:1.19.10-alpine
+FROM nginx:1.21.0-alpine
 
 WORKDIR /app
 RUN addgroup -g 1002 app && \

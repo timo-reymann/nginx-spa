@@ -1,3 +1,10 @@
+## [2.2.5](https://github.com/timo-reymann/nginx-spa/compare/2.2.4...2.2.5) (2022-12-06)
+
+
+### Bug Fixes
+
+* Trigger release ([b65da37](https://github.com/timo-reymann/nginx-spa/commit/b65da3725532c0f659de1eeea719c2400c246a5b))
+
 ## [2.2.4](https://github.com/timo-reymann/nginx-spa/compare/2.2.3...2.2.4) (2022-12-06)
 
 

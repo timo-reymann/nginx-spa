@@ -1,3 +1,10 @@
+## [2.2.4](https://github.com/timo-reymann/nginx-spa/compare/2.2.3...2.2.4) (2022-12-06)
+
+
+### Bug Fixes
+
+* Fix dependency for tag ([0ed511b](https://github.com/timo-reymann/nginx-spa/commit/0ed511bcb37bf3cee262230286870859210aea22))
+
 ## [2.2.3](https://github.com/timo-reymann/nginx-spa/compare/2.2.2...2.2.3) (2022-12-06)
 
 

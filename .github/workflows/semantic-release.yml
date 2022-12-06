@@ -18,10 +18,5 @@ jobs:
             @semantic-release/git@10.0.1
             @semantic-release/changelog@6.0.1
             conventional-changelog-conventionalcommits@5.0.0
-          branches: |
-            [
-              main,
-              master
-            ]
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

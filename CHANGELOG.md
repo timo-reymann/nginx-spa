@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/timo-reymann/nginx-spa/compare/2.2.2...2.2.3) (2022-12-06)
+
+
+### Bug Fixes
+
+* Fix id for step ([7cfee3d](https://github.com/timo-reymann/nginx-spa/commit/7cfee3d14da25b22a7a1dfafd58a458b04d41057))
+
 ## [2.2.2](https://github.com/timo-reymann/nginx-spa/compare/2.2.1...2.2.2) (2022-12-06)
 
 

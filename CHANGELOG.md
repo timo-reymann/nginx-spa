@@ -1,3 +1,10 @@
+## [2.3.0](https://github.com/timo-reymann/nginx-spa/compare/2.2.5...2.3.0) (2023-05-28)
+
+
+### Features
+
+* **deps:** update nginx docker tag to v1.25.0 ([#14](https://github.com/timo-reymann/nginx-spa/issues/14)) ([569974d](https://github.com/timo-reymann/nginx-spa/commit/569974dbbab7af6d6b425a1aeac633fd523a353c))
+
 ## [2.2.5](https://github.com/timo-reymann/nginx-spa/compare/2.2.4...2.2.5) (2022-12-06)
 
 

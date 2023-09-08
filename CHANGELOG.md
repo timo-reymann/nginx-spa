@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/timo-reymann/nginx-spa/compare/2.3.1...3.0.0) (2023-09-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* Users might depend on the removed libs, folders for some reason.
+
+### Features
+
+* Strip image ([92a3d2d](https://github.com/timo-reymann/nginx-spa/commit/92a3d2d5d3dfe6698b0bbe51e94b63e598c49b8a))
+
 ## [2.3.1](https://github.com/timo-reymann/nginx-spa/compare/2.3.0...2.3.1) (2023-06-14)
 
 

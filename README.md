@@ -14,6 +14,7 @@ nginx-spa
 ## Features
 - Secure by default
 - Caching optimized
+- Optimized, single layered base image
 
 ## Requirements
 - [Docker](https://docs.docker.com/get-docker/)

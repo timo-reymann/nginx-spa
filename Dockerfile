@@ -4,6 +4,7 @@ RUN apt-get update && \
 RUN apt-get install -y libxslt1-dev libxml2-dev zlib1g-dev libpcre3-dev libbz2-dev libssl-dev
 # renovate: datasource=github-tags depName=nginx/nginx
 ARG nginx_version=1.25.2
+# renovate: datasource=github-tags depName=openssl/openssl
 ARG openssl_version=1.0.1e
 RUN wget http://nginx.org/download/nginx-${nginx_version}.tar.gz && \
     tar xf nginx-${nginx_version}.tar.gz

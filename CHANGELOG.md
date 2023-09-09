@@ -1,3 +1,10 @@
+## [4.1.0](https://github.com/timo-reymann/nginx-spa/compare/4.0.0...4.1.0) (2023-09-09)
+
+
+### Features
+
+* Upgrade to openssl 3.1.2 ([2fc834a](https://github.com/timo-reymann/nginx-spa/commit/2fc834a0d6135525fc226cd18ffef308ec2b183f))
+
 ## [4.0.0](https://github.com/timo-reymann/nginx-spa/compare/3.0.0...4.0.0) (2023-09-09)
 
 

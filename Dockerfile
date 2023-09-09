@@ -4,13 +4,13 @@ RUN apt-get update && \
 RUN apt-get install -y libxslt1-dev libxml2-dev zlib1g-dev libpcre3-dev libbz2-dev libssl-dev
 # renovate: datasource=github-tags depName=nginx/nginx
 ARG nginx_version=1.25.2
-# renovate: datasource=github-tags depName=openssl/openssl versioning=deb
-ARG openssl_version=3.1.2
+# renovate: datasource=github-tags depName=openssl/openssl
+ARG openssl_version=openssl-3.1.2
 RUN wget http://nginx.org/download/nginx-${nginx_version}.tar.gz && \
     tar xf nginx-${nginx_version}.tar.gz
 WORKDIR nginx-${nginx_version}
-RUN wget http://www.openssl.org/source/openssl-${openssl_version}.tar.gz && \
-    tar xf openssl-${openssl_version}.tar.gz
+RUN wget http://www.openssl.org/source/${openssl_version}.tar.gz && \
+    tar xf ${openssl_version}.tar.gz
 RUN ./configure --prefix=/opt/nginx \
                 --with-cc-opt="-static -static-libgcc" \
                 --with-ld-opt="-static" \
@@ -27,7 +27,7 @@ RUN ./configure --prefix=/opt/nginx \
                 --with-http_gunzip_module \
                 --with-http_gzip_static_module \
                 --with-http_secure_link_module \
-                --with-openssl=./openssl-${openssl_version}
+                --with-openssl=./${openssl_version}
 RUN make -j1
 RUN make -j1 install
 COPY ./nginx.conf /opt/nginx/conf/nginx.conf

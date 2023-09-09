@@ -1,3 +1,15 @@
+## [4.0.0](https://github.com/timo-reymann/nginx-spa/compare/3.0.0...4.0.0) (2023-09-09)
+
+
+### ⚠ BREAKING CHANGES
+
+* The build is now based on distroless and contains only the bare minimum required for the use case of static file hosting
+
+### Features
+
+* Add renovate for openssl sources ([17493d7](https://github.com/timo-reymann/nginx-spa/commit/17493d7a277161157f050065bb6dbe89b624b49e))
+* Build nginx from source ([d851bcc](https://github.com/timo-reymann/nginx-spa/commit/d851bccd402c3afebb33d490fa1b95900fc4f776))
+
 ## [3.0.0](https://github.com/timo-reymann/nginx-spa/compare/2.3.1...3.0.0) (2023-09-08)
 
 

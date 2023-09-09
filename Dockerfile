@@ -5,7 +5,7 @@ RUN apt-get install -y libxslt1-dev libxml2-dev zlib1g-dev libpcre3-dev libbz2-d
 # renovate: datasource=github-tags depName=nginx/nginx
 ARG nginx_version=1.25.2
 # renovate: datasource=github-tags depName=openssl/openssl versioning=docker
-ARG openssl_version=1.0.1e
+ARG openssl_version=3.1.2
 RUN wget http://nginx.org/download/nginx-${nginx_version}.tar.gz && \
     tar xf nginx-${nginx_version}.tar.gz
 WORKDIR nginx-${nginx_version}

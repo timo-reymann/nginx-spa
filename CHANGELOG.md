@@ -1,3 +1,10 @@
+## [4.1.1](https://github.com/timo-reymann/nginx-spa/compare/4.1.0...4.1.1) (2023-09-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency openssl/openssl to openssl-3.1.3 ([#19](https://github.com/timo-reymann/nginx-spa/issues/19)) ([701da13](https://github.com/timo-reymann/nginx-spa/commit/701da13f02c13aaa13a17f174e82f39ecf20f0c6))
+
 ## [4.1.0](https://github.com/timo-reymann/nginx-spa/compare/4.0.0...4.1.0) (2023-09-09)
 
 

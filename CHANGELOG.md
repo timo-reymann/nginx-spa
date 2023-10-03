@@ -1,3 +1,10 @@
+## [4.2.0](https://github.com/timo-reymann/nginx-spa/compare/4.1.1...4.2.0) (2023-10-03)
+
+
+### Features
+
+* Allow custom configuration snippets ([de5c1de](https://github.com/timo-reymann/nginx-spa/commit/de5c1dec0ac355b155f680b7dcf8faf7b6aa04a2))
+
 ## [4.1.1](https://github.com/timo-reymann/nginx-spa/compare/4.1.0...4.1.1) (2023-09-20)
 
 

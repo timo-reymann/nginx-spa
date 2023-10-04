@@ -6,7 +6,7 @@ nginx-spa
 [![Detect new releases and build docker image on new version](https://github.com/timo-reymann/nginx-spa/actions/workflows/main.yml/badge.svg)](https://github.com/timo-reymann/nginx-spa/actions/workflows/main.yml)
 
 <p align="center">
-	<img width="300" src="./.github/images/logo.png">
+	<img width="300" src="https://raw.githubusercontent.com/timo-reymann/nginx-spa/master/.github/images/logo.png">
     <br />
     This is a really simple docker image to run your spa via docker without any configuration.
 </p>

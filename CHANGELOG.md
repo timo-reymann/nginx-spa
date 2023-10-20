@@ -1,3 +1,10 @@
+## [4.3.0](https://github.com/timo-reymann/nginx-spa/compare/4.2.0...4.3.0) (2023-10-20)
+
+
+### Features
+
+* Add oci labels ([bc65c43](https://github.com/timo-reymann/nginx-spa/commit/bc65c43d8bad6ffb3da2794e3f20d07ec6550c62))
+
 ## [4.2.0](https://github.com/timo-reymann/nginx-spa/compare/4.1.1...4.2.0) (2023-10-03)
 
 

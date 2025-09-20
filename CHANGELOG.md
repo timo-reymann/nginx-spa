@@ -1,3 +1,9 @@
+## [4.4.0](https://github.com/timo-reymann/nginx-spa/compare/4.3.5...4.4.0) (2025-09-20)
+
+### Features
+
+* Upgrade to nginx 1.29.1 ([5dcebb7](https://github.com/timo-reymann/nginx-spa/commit/5dcebb7aa77622b26ad692bba2c4414c0d54edb5))
+
 ## [4.3.5](https://github.com/timo-reymann/nginx-spa/compare/4.3.4...4.3.5) (2024-09-03)
 
 ### Bug Fixes

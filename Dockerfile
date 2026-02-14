@@ -37,7 +37,7 @@ FROM scratch
 LABEL org.opencontainers.image.title="nginx-spa"
 LABEL org.opencontainers.image.description="Docker container to host your single page application"
 LABEL org.opencontainers.image.ref.name="main"
-LABEL org.opencontainers.image.licenses='MIT'
+LABEL org.opencontainers.image.licenses='BSD 2-Clause'
 LABEL org.opencontainers.image.vendor="Timo Reymann <mail@timo-reymann.de>"
 LABEL org.opencontainers.image.authors="Timo Reymann <mail@timo-reymann.de>"
 LABEL org.opencontainers.image.url="https://github.com/timo-reymann/nginx-spa"

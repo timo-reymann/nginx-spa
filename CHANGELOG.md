@@ -1,3 +1,9 @@
+## [5.0.1](https://github.com/timo-reymann/nginx-spa/compare/5.0.0...5.0.1) (2026-02-14)
+
+### Bug Fixes
+
+* Fix dockerfile license label ([a807bed](https://github.com/timo-reymann/nginx-spa/commit/a807bed2955b334003e07ff26d62ffc9f214e658))
+
 ## [5.0.0](https://github.com/timo-reymann/nginx-spa/compare/4.4.0...5.0.0) (2026-02-14)
 
 ### ⚠ BREAKING CHANGES

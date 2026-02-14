@@ -1,3 +1,13 @@
+## [5.0.0](https://github.com/timo-reymann/nginx-spa/compare/4.4.0...5.0.0) (2026-02-14)
+
+### ⚠ BREAKING CHANGES
+
+* Use BSD 2-Clsue LICENSE
+
+### Features
+
+* Use BSD 2-Clsue LICENSE ([33c3999](https://github.com/timo-reymann/nginx-spa/commit/33c3999aa899ecb29de6824f82b718752ccb8b02))
+
 ## [4.4.0](https://github.com/timo-reymann/nginx-spa/compare/4.3.5...4.4.0) (2025-09-20)
 
 ### Features

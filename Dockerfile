@@ -34,7 +34,8 @@ COPY ./nginx.conf /opt/nginx/conf/nginx.conf
 COPY ./nginx_html /opt/nginx/html
 RUN chown -R 65532:65532 /opt/nginx
 FROM scratch
-LABEL org.opencontainers.image.title="nginx-spa"
+LABEL 
+LABEL org.opencontainers.image.licenses="bsd-2-clause"org.opencontainers.image.title="nginx-spa"
 LABEL org.opencontainers.image.description="Docker container to host your single page application"
 LABEL org.opencontainers.image.ref.name="main"
 LABEL org.opencontainers.image.licenses='MIT'

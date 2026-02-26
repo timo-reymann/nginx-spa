@@ -1,3 +1,9 @@
+## [5.1.0](https://github.com/timo-reymann/nginx-spa/compare/5.0.1...5.1.0) (2026-02-26)
+
+### Features
+
+* Add NOTICE ([e60f19f](https://github.com/timo-reymann/nginx-spa/commit/e60f19f254c52c2a4ba6b24df50659c34956fc08))
+
 ## [5.0.1](https://github.com/timo-reymann/nginx-spa/compare/5.0.0...5.0.1) (2026-02-14)
 
 ### Bug Fixes

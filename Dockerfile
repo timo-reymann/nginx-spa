@@ -1,3 +1,7 @@
+FROM scratch AS license
+COPY LICENSE LICENSE
+COPY NOTICE NOTICE
+
 FROM ubuntu:latest as build
 RUN apt-get update && \
     apt-get install -y wget build-essential
@@ -33,7 +37,9 @@ RUN make -j1 install
 COPY ./nginx.conf /opt/nginx/conf/nginx.conf
 COPY ./nginx_html /opt/nginx/html
 RUN chown -R 65532:65532 /opt/nginx
+
 FROM scratch
+COPY --from=license / /
 LABEL org.opencontainers.image.title="nginx-spa"
 LABEL org.opencontainers.image.description="Docker container to host your single page application"
 LABEL org.opencontainers.image.ref.name="main"

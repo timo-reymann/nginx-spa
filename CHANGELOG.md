@@ -1,3 +1,9 @@
+## [5.2.0](https://github.com/timo-reymann/nginx-spa/compare/5.1.0...5.2.0) (2026-03-01)
+
+### Features
+
+* Add SBOM ([5f9252c](https://github.com/timo-reymann/nginx-spa/commit/5f9252c3746dcfee8a9b46db1435b6a5b9557a9c))
+
 ## [5.1.0](https://github.com/timo-reymann/nginx-spa/compare/5.0.1...5.1.0) (2026-02-26)
 
 ### Features

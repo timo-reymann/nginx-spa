@@ -1,3 +1,9 @@
+## [5.2.1](https://github.com/timo-reymann/nginx-spa/compare/5.2.0...5.2.1) (2026-03-28)
+
+### Bug Fixes
+
+* Optimize container layers and reformat ([55480ee](https://github.com/timo-reymann/nginx-spa/commit/55480eefee93c58ba1cf16b51e4b4b5f73f82ab2))
+
 ## [5.2.0](https://github.com/timo-reymann/nginx-spa/compare/5.1.0...5.2.0) (2026-03-01)
 
 ### Features

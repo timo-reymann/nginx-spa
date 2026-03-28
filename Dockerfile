@@ -27,22 +27,22 @@ RUN wget http://www.openssl.org/source/${openssl_version}.tar.gz && \
     tar xf ${openssl_version}.tar.gz
 
 RUN ./configure --prefix=/opt/nginx \
-                --with-cc-opt="-static -static-libgcc" \
-                --with-ld-opt="-static" \
-                --with-cpu-opt=generic \
-                --with-pcre \
-                --with-ipv6 \
-                --with-poll_module \
-                --with-select_module \
-                --with-poll_module \
-                --with-http_ssl_module \
-                --with-http_realip_module \
-                --with-http_flv_module \
-                --with-http_mp4_module \
-                --with-http_gunzip_module \
-                --with-http_gzip_static_module \
-                --with-http_secure_link_module \
-                --with-openssl=./${openssl_version}
+      --with-cc-opt="-static -static-libgcc" \
+      --with-ld-opt="-static" \
+      --with-cpu-opt=generic \
+      --with-pcre \
+      --with-ipv6 \
+      --with-poll_module \
+      --with-select_module \
+      --with-poll_module \
+      --with-http_ssl_module \
+      --with-http_realip_module \
+      --with-http_flv_module \
+      --with-http_mp4_module \
+      --with-http_gunzip_module \
+      --with-http_gzip_static_module \
+      --with-http_secure_link_module \
+      --with-openssl=./${openssl_version}
 RUN make -j1
 RUN make -j1 install
 

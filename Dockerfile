@@ -15,14 +15,16 @@ RUN apt-get install -y \
       libbz2-dev \
       libssl-dev
 
-# renovate: datasource=github-tags depName=openssl/openssl
-ARG openssl_version=openssl-3.6.1
-RUN wget http://nginx.org/download/nginx-${nginx_version}.tar.gz && \
-    tar xf nginx-${nginx_version}.tar.gz
 
 # renovate: datasource=github-tags depName=nginx/nginx
 ARG nginx_version=1.29.1
+RUN wget http://nginx.org/download/nginx-${nginx_version}.tar.gz && \
+    tar xf nginx-${nginx_version}.tar.gz
+
+
 WORKDIR nginx-${nginx_version}
+# renovate: datasource=github-tags depName=openssl/openssl
+ARG openssl_version=openssl-3.6.1
 RUN wget http://www.openssl.org/source/${openssl_version}.tar.gz && \
     tar xf ${openssl_version}.tar.gz
 

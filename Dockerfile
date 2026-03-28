@@ -2,7 +2,7 @@ FROM scratch AS license
 COPY LICENSE LICENSE
 COPY NOTICE NOTICE
 
-FROM ubuntu:latest as build
+FROM ubuntu:latest AS build
 RUN apt-get update && \
     apt-get install -y \
       wget \

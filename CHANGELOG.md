@@ -1,3 +1,9 @@
+## [5.2.2](https://github.com/timo-reymann/nginx-spa/compare/5.2.1...5.2.2) (2026-03-28)
+
+### Bug Fixes
+
+* Fix AS casing ([9b96e5a](https://github.com/timo-reymann/nginx-spa/commit/9b96e5a680e0528e5f1bbc37c646cee23f5e7259))
+
 ## [5.2.1](https://github.com/timo-reymann/nginx-spa/compare/5.2.0...5.2.1) (2026-03-28)
 
 ### Bug Fixes

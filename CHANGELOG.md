@@ -1,3 +1,9 @@
+## [5.3.0](https://github.com/timo-reymann/nginx-spa/compare/5.2.2...5.3.0) (2026-03-29)
+
+### Features
+
+* add ARM64 support to CI/CD workflow ([ebf407a](https://github.com/timo-reymann/nginx-spa/commit/ebf407a3c5d8512dd5f853e4f19d975371f8d314))
+
 ## [5.2.2](https://github.com/timo-reymann/nginx-spa/compare/5.2.1...5.2.2) (2026-03-28)
 
 ### Bug Fixes

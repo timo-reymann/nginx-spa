@@ -52,7 +52,7 @@ COPY ./nginx.conf /opt/nginx/conf/nginx.conf
 COPY ./nginx_html /opt/nginx/html
 RUN chown -R 65532:65532 /opt/nginx
 
-FROM scratch
+FROM timoreymann/ubuntu-runtime:26.04
 COPY --from=license / /
 
 LABEL org.opencontainers.image.title="nginx-spa" \
@@ -65,7 +65,6 @@ LABEL org.opencontainers.image.title="nginx-spa" \
       org.opencontainers.image.documentation="https://github.com/timo-reymann/nginx-spa" \
       org.opencontainers.image.source="https://github.com/timo-reymann/nginx-spa.git"
 
-COPY --from=gcr.io/distroless/static-debian12:nonroot / /
 COPY --from=build /opt/nginx /opt/nginx
 
 USER nonroot

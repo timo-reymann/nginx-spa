@@ -1,3 +1,9 @@
+## [5.4.0](https://github.com/timo-reymann/nginx-spa/compare/5.3.0...5.4.0) (2026-05-02)
+
+### Features
+
+* Use custom base imag ([c0855ba](https://github.com/timo-reymann/nginx-spa/commit/c0855ba1392208a3cd7d61779672665b00f852a7))
+
 ## [5.3.0](https://github.com/timo-reymann/nginx-spa/compare/5.2.2...5.3.0) (2026-03-29)
 
 ### Features

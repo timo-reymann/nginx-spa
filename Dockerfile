@@ -52,7 +52,7 @@ COPY ./nginx.conf /opt/nginx/conf/nginx.conf
 COPY ./nginx_html /opt/nginx/html
 RUN chown -R 65532:65532 /opt/nginx
 
-FROM timoreymann/ubuntu-runtime:26.04
+FROM timoreymann/ubuntu-runtime:26.6
 COPY --from=license / /
 
 LABEL org.opencontainers.image.title="nginx-spa" \

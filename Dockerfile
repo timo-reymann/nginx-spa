@@ -24,7 +24,7 @@ RUN wget http://nginx.org/download/nginx-${nginx_version}.tar.gz && \
 
 WORKDIR nginx-${nginx_version}
 # renovate: datasource=github-tags depName=openssl/openssl
-ARG openssl_version=openssl-4.0.0
+ARG openssl_version=openssl-4.0.1
 RUN wget http://www.openssl.org/source/${openssl_version}.tar.gz && \
     tar xf ${openssl_version}.tar.gz
 

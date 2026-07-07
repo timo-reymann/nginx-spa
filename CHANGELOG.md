@@ -1,3 +1,9 @@
+## [5.4.2](https://github.com/timo-reymann/nginx-spa/compare/5.4.1...5.4.2) (2026-07-07)
+
+### Bug Fixes
+
+* Replace dropped libpcre3-dev with libpcre2-dev for Ubuntu 26.04 ([c3c3407](https://github.com/timo-reymann/nginx-spa/commit/c3c34074877cfe5ff22b6e02479b8ab783ebd903))
+
 ## [5.4.1](https://github.com/timo-reymann/nginx-spa/compare/5.4.0...5.4.1) (2026-07-07)
 
 ### Bug Fixes

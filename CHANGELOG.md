@@ -1,3 +1,15 @@
+## [6.0.0](https://github.com/timo-reymann/nginx-spa/compare/5.4.2...6.0.0) (2026-07-07)
+
+### ⚠ BREAKING CHANGES
+
+* The http_ssl module is no longer compiled into nginx. Users who relied on custom /etc/nginx/conf.d/*.conf snippets to enable HTTPS directly must now terminate TLS at a reverse proxy.
+
+Co-Authored-By: deepseek-v4-flash <noreply@opencode.ai>
+
+### Features
+
+* remove OpenSSL (nginx built without http_ssl_module) ([6aa9d43](https://github.com/timo-reymann/nginx-spa/commit/6aa9d43e1b78f71ff26273304268549eb5eff91c))
+
 ## [5.4.2](https://github.com/timo-reymann/nginx-spa/compare/5.4.1...5.4.2) (2026-07-07)
 
 ### Bug Fixes

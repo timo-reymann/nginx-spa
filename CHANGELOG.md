@@ -1,3 +1,9 @@
+## [6.0.2](https://github.com/timo-reymann/nginx-spa/compare/6.0.1...6.0.2) (2026-07-07)
+
+### Bug Fixes
+
+* USER statement to nonroot ([824eb62](https://github.com/timo-reymann/nginx-spa/commit/824eb62c2aeffe53b451bf50b81924614a11e501))
+
 ## [6.0.1](https://github.com/timo-reymann/nginx-spa/compare/6.0.0...6.0.1) (2026-07-07)
 
 ### Bug Fixes

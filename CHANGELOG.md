@@ -1,3 +1,9 @@
+## [5.4.1](https://github.com/timo-reymann/nginx-spa/compare/5.4.0...5.4.1) (2026-07-07)
+
+### Bug Fixes
+
+* Use latest ubuntu lts ([81bed22](https://github.com/timo-reymann/nginx-spa/commit/81bed2255442da2e36000c9dafa20bd5841e9ee9))
+
 ## [5.4.0](https://github.com/timo-reymann/nginx-spa/compare/5.3.0...5.4.0) (2026-05-02)
 
 ### Features

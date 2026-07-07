@@ -44,7 +44,7 @@ COPY ./nginx.conf /opt/nginx/conf/nginx.conf
 COPY ./nginx_html /opt/nginx/html
 RUN chown -R 65532:65532 /opt/nginx
 
-FROM timoreymann/ubuntu-runtime:26.8
+FROM timoreymann/ubuntu-runtime:26.04
 COPY --from=license / /
 
 LABEL org.opencontainers.image.title="nginx-spa" \
@@ -58,7 +58,5 @@ LABEL org.opencontainers.image.title="nginx-spa" \
       org.opencontainers.image.source="https://github.com/timo-reymann/nginx-spa.git"
 
 COPY --from=build /opt/nginx /opt/nginx
-
-USER nonroot
 
 ENTRYPOINT ["/opt/nginx/sbin/nginx"]

@@ -1,3 +1,9 @@
+## [6.0.1](https://github.com/timo-reymann/nginx-spa/compare/6.0.0...6.0.1) (2026-07-07)
+
+### Bug Fixes
+
+* FIx user ([f7106e5](https://github.com/timo-reymann/nginx-spa/commit/f7106e59215302e2a4b2369da177e95716561960))
+
 ## [6.0.0](https://github.com/timo-reymann/nginx-spa/compare/5.4.2...6.0.0) (2026-07-07)
 
 ### ⚠ BREAKING CHANGES

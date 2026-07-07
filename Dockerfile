@@ -58,5 +58,5 @@ LABEL org.opencontainers.image.title="nginx-spa" \
       org.opencontainers.image.source="https://github.com/timo-reymann/nginx-spa.git"
 
 COPY --from=build /opt/nginx /opt/nginx
-
+USER 65532
 ENTRYPOINT ["/opt/nginx/sbin/nginx"]

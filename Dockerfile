@@ -11,7 +11,7 @@ RUN apt-get install -y \
       libxslt1-dev \
       libxml2-dev \
       zlib1g-dev \
-      libpcre3-dev \
+      libpcre2-dev \
       libbz2-dev \
       libssl-dev
 

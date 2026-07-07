@@ -12,8 +12,7 @@ RUN apt-get install -y \
       libxml2-dev \
       zlib1g-dev \
       libpcre2-dev \
-      libbz2-dev \
-      libssl-dev
+      libbz2-dev
 
 
 # renovate: datasource=github-tags depName=nginx/nginx
@@ -23,11 +22,6 @@ RUN wget http://nginx.org/download/nginx-${nginx_version}.tar.gz && \
 
 
 WORKDIR nginx-${nginx_version}
-# renovate: datasource=github-tags depName=openssl/openssl
-ARG openssl_version=openssl-4.0.1
-RUN wget http://www.openssl.org/source/${openssl_version}.tar.gz && \
-    tar xf ${openssl_version}.tar.gz
-
 RUN ./configure --prefix=/opt/nginx \
       --with-cc-opt="-static -static-libgcc" \
       --with-ld-opt="-static" \
@@ -37,14 +31,12 @@ RUN ./configure --prefix=/opt/nginx \
       --with-poll_module \
       --with-select_module \
       --with-poll_module \
-      --with-http_ssl_module \
       --with-http_realip_module \
       --with-http_flv_module \
       --with-http_mp4_module \
       --with-http_gunzip_module \
       --with-http_gzip_static_module \
-      --with-http_secure_link_module \
-      --with-openssl=./${openssl_version}
+      --with-http_secure_link_module
 RUN make -j1
 RUN make -j1 install
 

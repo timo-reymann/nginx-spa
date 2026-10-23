@@ -1,3 +1,9 @@
+## [6.0.3](https://github.com/timo-reymann/nginx-spa/compare/6.0.2...6.0.3) (2026-10-23)
+
+### Bug Fixes
+
+* **nginx:** Update to 1.31.8 ([#49](https://github.com/timo-reymann/nginx-spa/issues/49)) ([e299627](https://github.com/timo-reymann/nginx-spa/commit/e299627df2a968d8fc0295d2ff52923b3238f907))
+
 ## [6.0.2](https://github.com/timo-reymann/nginx-spa/compare/6.0.1...6.0.2) (2026-07-07)
 
 ### Bug Fixes

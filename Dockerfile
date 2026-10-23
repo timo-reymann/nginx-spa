@@ -16,7 +16,7 @@ RUN apt-get install -y \
 
 
 # renovate: datasource=github-tags depName=nginx/nginx
-ARG nginx_version=1.29.1
+ARG nginx_version=1.31.8
 RUN wget http://nginx.org/download/nginx-${nginx_version}.tar.gz && \
     tar xf nginx-${nginx_version}.tar.gz
 

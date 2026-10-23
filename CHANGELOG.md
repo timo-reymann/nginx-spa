@@ -1,3 +1,9 @@
+## [6.0.4](https://github.com/timo-reymann/nginx-spa/compare/6.0.3...6.0.4) (2026-10-23)
+
+### Bug Fixes
+
+* Trigger release ([f48b154](https://github.com/timo-reymann/nginx-spa/commit/f48b1543a6ea4a856ea1966d3d1648600c711dee))
+
 ## [6.0.3](https://github.com/timo-reymann/nginx-spa/compare/6.0.2...6.0.3) (2026-10-23)
 
 ### Bug Fixes

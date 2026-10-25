@@ -1,3 +1,9 @@
+## [6.1.0](https://github.com/timo-reymann/nginx-spa/compare/6.0.4...6.1.0) (2026-10-25)
+
+### Features
+
+* Enable ranges ([6561757](https://github.com/timo-reymann/nginx-spa/commit/6561757698d598e7d59cfac9e859fa514f5939ce))
+
 ## [6.0.4](https://github.com/timo-reymann/nginx-spa/compare/6.0.3...6.0.4) (2026-10-23)
 
 ### Bug Fixes
